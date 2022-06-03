@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <time.h>
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//UTN WALLET: VERSION ALPHA
+//UTN WALLET: VERSION ALPHA 1.4
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //ARREGLAR: SI BORRAS EN LOS ASTERISCOS, NO FUNCIONA LA CONTRSENA
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -780,8 +780,6 @@ void alumnos()                                              //BOTON 1: MENU ALUM
             {
                 boton=iniciarSesionAlumno();
                 system("cls");
-
-                printf("\n\nboton: %i",boton);
             }
             break;
             case 4:
@@ -1421,7 +1419,6 @@ void pantallaAlumnos()                                          //PANTALLA ALUMN
 int iniciarSesionAlumno()                                           //BOTON 3: INICIAR SESION
 {
     int flag=0,boton,ronda=1;
-    //char volverString[10]="0";
     stUsuario sesion,cuenta;
     //USUARIO
     while(flag!=1)
@@ -3056,10 +3053,10 @@ int crearCuentaAlumno()                                             //BOTON 4: C
         fflush(stdin);
         gets(datos.contrasena);
         if(strcmp(datos.contrasena,"0")==0)
-    {
-        boton=0;
-        return boton;
-    }
+        {
+            boton=0;
+            return boton;
+        }
         ronda++;
         system("cls");
     }
@@ -3725,7 +3722,7 @@ void crearCuentaAlumnoPantalla6(int ronda,stUsuario datos)              //PANTAL
     }
     {   //SUBCABECERA 13
         color(128);
-                printf(" FECHA DE NACIMIENTO: %02i/%02i/%i%i                    ",datos.nacimiento.dia,datos.nacimiento.mes,(datos.nacimiento.ano%100)/10,datos.nacimiento.ano%10);
+        printf(" FECHA DE NACIMIENTO: %02i/%02i/%i%i                    ",datos.nacimiento.dia,datos.nacimiento.mes,(datos.nacimiento.ano%100)/10,datos.nacimiento.ano%10);
         color(249);
         printf("                                                ");
         color(0);
@@ -3897,7 +3894,7 @@ void crearCuentaAlumnoPantalla7(int boton,stUsuario datos)              //PANTAL
     }
     {   //SUBCABECERA 13
         color(128);
-                printf(" FECHA DE NACIMIENTO: %02i/%02i/%i%i                    ",datos.nacimiento.dia,datos.nacimiento.mes,(datos.nacimiento.ano%100)/10,datos.nacimiento.ano%10);
+        printf(" FECHA DE NACIMIENTO: %02i/%02i/%i%i                    ",datos.nacimiento.dia,datos.nacimiento.mes,(datos.nacimiento.ano%100)/10,datos.nacimiento.ano%10);
         color(249);
         printf("                                                ");
         color(0);
@@ -5308,7 +5305,6 @@ int pago(stUsuario sesion)                                          //BOTON 4
 int editarDatos(stUsuario sesion)                                   //BOTON 5
 {
     int boton=0;
-
     return boton;
 }
 int buffet(stUsuario sesion,float *pesos)                           //BOTON 7
@@ -8415,9 +8411,7 @@ void crearCuentaAdminPantalla5(int boton,stAdmin datos)                 //PANTAL
 int ventanasAdmin(stAdmin sesion,int boton)                     //VENTANAS ADMIN
 {
     float pesos=0;
-
     //DEPENDE TIPO DE ADMIN
-
     do
     {
         switch(boton)
