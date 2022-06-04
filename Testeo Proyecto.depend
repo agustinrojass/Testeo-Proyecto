@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1654230854 source:c:\users\usuario\documents\utn\2022\1er cuatrimestre\programación\archivos c\testeo proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<unistd.h>
+	<time.h>
+
+1654367737 source:c:\users\usuario\documents\utn\2022\1er cuatrimestre\programación\archivos c\testeo proyecto\pantallas.c
+	"pantallas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<unistd.h>
+	<time.h>
+
+1654367724 c:\users\usuario\documents\utn\2022\1er cuatrimestre\programación\archivos c\testeo proyecto\pantallas.h
+
