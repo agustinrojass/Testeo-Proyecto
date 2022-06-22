@@ -33,11 +33,15 @@ Wallet virtual de la UTN para poder pagar el buffet, la fotocopiadora y la cuota
 
 ### Inicio
 
-![Image text](https://github.com/agustinrojass/Prueba-Proyecto/blob/ar/Inicio.png)
+![Image text](https://github.com/agustinrojass/Prueba-Proyecto/blob/ar/Screenshots/Inicio.png)
+
+### Inicio de sesión
+
+![Image text](https://github.com/agustinrojass/Prueba-Proyecto/blob/ar/Screenshots/Inicio%20de%20sesi%C3%B3n.png)
 
 ### Estado de cuenta
 
-![Image text](https://github.com/agustinrojass/Prueba-Proyecto/blob/ar/Estado%20de%20cuenta%20alumno.png)
+![Image text](https://github.com/agustinrojass/Prueba-Proyecto/blob/ar/Screenshots/Estado%20de%20cuenta%20alumno.png)
 
 ### Historial de transacciones
 
