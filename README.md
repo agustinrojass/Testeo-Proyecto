@@ -13,10 +13,10 @@ Wallet virtual de la UTN para poder pagar el buffet, la fotocopiadora y la cuota
 
 | Semana | Progreso |
 | - | - |
-| Semana 1 | Funciones de creación de cuenta e inicio de sesión, menus de navegación | 
-| Semana 2 | Funciones de muestra "pantallas", estado de cuenta, datos personales, generación de token |
-| Semana 3 | Funciones de modificación de datos, acreditación, historiales, listas |
-| Semana 4 | Más funciones de muestra "pantallas", asteriscos para las contraseñas, modularización |
+| Semana 1 | Funciones de creación de cuenta e inicio de sesión, menus de navegación. | 
+| Semana 2 | Funciones de muestra "pantallas", estado de cuenta, datos personales, generación de token. |
+| Semana 3 | Funciones de modificación de datos, acreditación, historiales, listas. |
+| Semana 4 | Más funciones de muestra "pantallas", asteriscos para las contraseñas, modularización, alta y baja del alumno. |
 
 ## Referencia de colores
 
